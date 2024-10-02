@@ -3,7 +3,7 @@ import pandas as pd
 
 # Initialize the faker
 fake = Faker()
-# Indian locale faker because default faker does not have bank() method.
+# India locale faker because default faker does not have bank() method.  See Faker documentation
 fake_in = Faker('en_IN')
 
 # User defined variables.
